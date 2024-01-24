@@ -1,5 +1,5 @@
 # MitoVarFilter
-<p align=justify>This repository hosts the main scriptsfor handling variant calling from mtDNA in exome and genome sequencing FASTQ files. 
+<p align=justify>This repository hosts the main scripts for handling variant calling from mtDNA in exome and genome sequencing FASTQ files. 
   <br>The script mapExome_2024.pytakes the lead by automating the alignment process. It ensures that exome reads align accurately to the revised Cambridge Reference Sequence (rCRS) of human mtDNA and further refines the alignment by mapping reads against the complete GRCh38 human reference genometo eliminate nuclear mitochondrial DNA sequences (NUMTs).<br>
   This automation, facilitated by a custom Python script, streamlines the entire mapping procedure, enhancing efficiency and reproducibility. 
   <br>Moving on to mitochondrial DNA sequence reconstruction, the MToolBox proves instrumental. Specifically, the scripts assembleMTgenome_2024.py and mtVariantCaller_2024.pyandVCFoutput.py performv ariant calling and heteroplasmy quantification. 
